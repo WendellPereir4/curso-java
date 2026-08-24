@@ -23,7 +23,7 @@ src/
 
 Construir uma base sólida em Java para chegar em:
 
-- POO
+- POO (Programação Orientada a Objetos)
 - Spring Boot
 - APIs REST
 - PostgreSQL
