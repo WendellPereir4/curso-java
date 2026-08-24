@@ -4,7 +4,7 @@ import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class calc {
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
         Scanner fc = new Scanner(System.in);
 
@@ -28,7 +28,12 @@ public class calc {
             System.out.println(numerosoma1 * numerosoma2);
 
         else if (operador.equals("/"))
+            if (numerosoma2 != 0)
             System.out.println(numerosoma1/numerosoma2);
+            else
+                System.out.println("Não é possivel dividir por 0.");
+
+
     }
 
 }
