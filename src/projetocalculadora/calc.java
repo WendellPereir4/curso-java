@@ -11,7 +11,7 @@ public class calc {
         System.out.print("Digite seu numero: ");
         int numerosoma1 = fc.nextInt();
 
-        // operador
+        // operadors
         System.out.print("Digite o operador: ");
         String operador = fc.next(); // next é usado pq sao operadores.
 
