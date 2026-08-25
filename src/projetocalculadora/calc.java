@@ -15,6 +15,9 @@ public class calc {
         System.out.print("Digite o operador: ");
         String operador = fc.next(); // next é usado pq sao operadores.
 
+        // COLOCAR OPERADOR COM DE NUMEROS DECIMAIS
+
+
         System.out.print("Digite o numero para somar: ");
         int numerosoma2 = fc.nextInt();;
 
