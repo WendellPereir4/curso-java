@@ -8,16 +8,10 @@ public class CheckList {
         //
         Scanner fc = new Scanner(System.in);
 
-        System.out.println("==== LISTA DE VERIFICAÇÃO ====");
+        System.out.println("==== LISTA DE VERIFICAÇÃO ==== \n 1- Adicionar Tarefas \n 2- Listar tarefas \n 3- Sair ");
 
-        System.out.println("digite");
+        System.out.println("Digite uma opção: ");
         int opcao = fc.nextInt();
-
-
-        //int adicionarTarefas = 1;
-        //int listarTarefas = 2;
-        //int sair = 3;
-
 
 
     }
