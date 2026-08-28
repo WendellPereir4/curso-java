@@ -16,14 +16,19 @@ public class CheckList {
 
         System.out.println("==== LISTA DE VERIFICAÇÃO ==== \n 1- Adicionar Tarefas \n 2- Listar tarefas \n 3- Sair ");
 
-        System.out.print("Digite uma opção: ");
-        int opcao = fc.nextInt();
-        fc.nextLine(); // limpa o Enter
+        for (;;) {
+            System.out.print("Digite uma opção: ");
+            int opcao = fc.nextInt();
+            fc.nextLine(); // limpa o Ente
 
-        if (opcao == 1)
-         System.out.print("Qual tarefa você deseja adicionar?: ");
-        String adicionandoTarefas = fc.nextLine();
-        tarefas.add(adicionandoTarefas);
+            if (opcao == 1);
+            System.out.println("testando");
+
+        }
+        //if (opcao == 1)
+         //System.out.print("Qual tarefa você deseja adicionar?: ");
+       // String adicionandoTarefas = fc.nextLine();
+        //tarefas.add(adicionandoTarefas);
 
 
     }
