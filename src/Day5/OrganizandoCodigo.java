@@ -7,6 +7,6 @@ public class OrganizandoCodigo {
     }
 
     public static void listaDeProdutos(String nomeDoProduto, Integer valorDeProduto) {
-        System.out.println(nomeDoProduto + " - " + valorDeProduto);
+        System.out.println(nomeDoProduto + "-" + valorDeProduto);
     }
 }
