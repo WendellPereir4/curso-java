@@ -3,17 +3,23 @@ package Day5;
 public class Main {
     public static void main(String[] args) {
 
-        Clientes c001 = new Clientes(); //-> objeto usando instancia da classe cliente
-        c001.nomeDoCliente = "Wendell";
-        c001.idadedoCliente = 22;
+        Car car = new Car("BMW", "X6", 2024); //-> new cria objetos, exem: BMW, x6, 2024. tipo uma pessoa fisica colocar idade,nome
 
-        Clientes c002 = new Clientes();
-        c002.nomeDoCliente = "Emelly";
-        c002.idadedoCliente = 22;
+        car.setModelo("X5");
+        car.setMarca("Ferrari");
 
+        System.out.println(car.getMarca());
+        System.out.println(car.getModelo());
+        System.out.println(car.getAno());
+        System.out.println();
 
-        System.out.print(c002.idadedoCliente);
-        c002.criarContaNova();
+        //Classe = molde da Pessoa.
+        //
+        //Objeto = uma pessoa específica.
+        //
+        //Atributos = nome, peso, idade, data de nascimento.
+        //
+        //Métodos = ações da pessoa (andar, comer, falar).
 
     }
 }
