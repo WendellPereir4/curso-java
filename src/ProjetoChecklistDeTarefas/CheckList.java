@@ -7,7 +7,6 @@ public class CheckList {
     static void main(String[] args) {
 
         //
-
         ArrayList<String> tarefas = new ArrayList<>();
         //String[] itens = new String[5]; // -> Array vazia para preencher.
         // ArrayList<String> cores = new ArrayList<>();
@@ -18,18 +17,24 @@ public class CheckList {
 
         for (;;) {
             System.out.print("Digite uma opção: ");
-            int opcao = fc.nextInt();
-            fc.nextLine(); // limpa o Ente
 
-            if (opcao == 1);
-            System.out.println("testando");
+            int opcao = fc.nextInt();
+            fc.nextLine(); // limpa o Enter
+
+            switch (opcao){
+                case 1:
+                    System.out.println("Digite nome da tarefa: ");
+                    String adicionandoTarefa = fc.nextLine();
+                    tarefas.add(adicionandoTarefa);
+                    break;
+
+                case 2:
+                    System.out.println("Listando tarefas:");
+
+
+
 
         }
-        //if (opcao == 1)
-         //System.out.print("Qual tarefa você deseja adicionar?: ");
-       // String adicionandoTarefas = fc.nextLine();
-        //tarefas.add(adicionandoTarefas);
-
 
     }
-}
+}}

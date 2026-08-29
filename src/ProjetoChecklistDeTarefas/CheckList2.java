@@ -21,6 +21,7 @@ public class CheckList2 {
             switch (opcao){
                 case 1:
                     System.out.println("Digite nome da tarefa: ");
+
                     String adicionandoTarefa = fc.nextLine();
                     break;
 
