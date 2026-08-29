@@ -1,4 +1,4 @@
-package Day5;
+package Day6;
 
 public class OrganizandoCodigo {
     static void main(String[] args) { // -> 1 EXECUTOU O MAIN, DPS CHAMOU O METODO DE BAIXO, E RETORNOU 2 VEZES

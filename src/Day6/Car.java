@@ -1,4 +1,4 @@
-package Day5;
+package Day6;
 
 public class Car {
 
@@ -12,23 +12,25 @@ public class Car {
         this.modelo = modelo;
         this.ano = ano;
         this.valordoCarro = valordoCarro;
-    }
 
+    }
     public String getMarca() {
         return marca; //-> ISSO É UM METODO.
 
     }
-
     public String getModelo() {
         return modelo;
 
     }
-
     public int getAno() {
         return ano;
-
+    }
+    public int getValordoCarro(){
+        System.out.println();
+        return valordoCarro;
     }
 
+    //////////////////////////////////////////////////////////// -> ISSO É PARA TROCAR O NOME DO MODELO FUTURO.
     public void setModelo(String modelo) {
         this.modelo = modelo;
     }
